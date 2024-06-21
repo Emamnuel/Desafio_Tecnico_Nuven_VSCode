@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-21T13:52:23.576Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="EiqoGhUNFfumdzoum6Kw" version="24.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-21T14:10:48.125Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="RJcyC4enlhJy6AmyUlb8" version="24.6.0" type="github">
   <diagram name="Página-1" id="uo4vIWMoXTekdhAcwwu6">
-    <mxGraphModel dx="1354" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="765" dy="370" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -45,7 +45,7 @@
           <mxGeometry x="290.63" y="820" width="103.75" height="100" as="geometry" />
         </mxCell>
         <mxCell id="NG3DBzSu40vpIyD9UtTB-19" value="FIM" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1020" y="930" width="70" height="40" as="geometry" />
+          <mxGeometry x="507.5" y="1337.5" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="YiGi1f87aAJgmJdH8lJt-2" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Default&lt;/h1&gt;&lt;p&gt;0xF2 (16x ovs pressão)&lt;/p&gt;&lt;p&gt;0xF4 (normal mode, 16x ovs temperatura e pressão)&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;0xF5 (configurações em normal mode)&lt;/span&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="70" y="550" width="190" height="150" as="geometry" />
@@ -54,16 +54,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YiGi1f87aAJgmJdH8lJt-4" value="Pressão = data[0] &amp;lt;&amp;lt; 16 | data[1] &amp;lt;&amp;lt; 8 | data[2] &amp;gt;&amp;gt; 4&lt;div&gt;Temperatura = data[3] &amp;lt;&amp;lt; 16 | data[4] &amp;lt;&amp;lt; 8 | data[5] &amp;gt;&amp;gt; 4&lt;/div&gt;&lt;div&gt;Humidade = data [6] &amp;lt;&amp;lt; 16 | data[7]&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="890" y="735" width="330" height="65" as="geometry" />
+          <mxGeometry x="377.5" y="1142.5" width="330" height="65" as="geometry" />
         </mxCell>
         <mxCell id="YiGi1f87aAJgmJdH8lJt-6" value="Leituras dos Endereços: &#xa;0xF7...0xF9 (pressão)&#xa;0xFA...0xFC (temperatura)&#xa;0xFD...0xFE (humidade)&#xa;" style="text;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1234" y="732.5" width="420" height="70" as="geometry" />
+          <mxGeometry x="721.5" y="1140" width="420" height="70" as="geometry" />
         </mxCell>
         <mxCell id="YiGi1f87aAJgmJdH8lJt-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YiGi1f87aAJgmJdH8lJt-7" target="NG3DBzSu40vpIyD9UtTB-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YiGi1f87aAJgmJdH8lJt-7" value="Dados prontos para serem analisados&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="990" y="840" width="130" height="50" as="geometry" />
+          <mxGeometry x="477.5" y="1247.5" width="130" height="50" as="geometry" />
         </mxCell>
         <mxCell id="YiGi1f87aAJgmJdH8lJt-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YiGi1f87aAJgmJdH8lJt-13" target="NG3DBzSu40vpIyD9UtTB-14">
           <mxGeometry relative="1" as="geometry" />
@@ -72,7 +72,7 @@
           <mxGeometry x="277.5" y="720" width="130" height="50" as="geometry" />
         </mxCell>
         <mxCell id="YiGi1f87aAJgmJdH8lJt-19" value="Endereço do BME280 &#xa;R/W = 0 (escrita)" style="text;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="433.75" y="805" width="122.5" height="40" as="geometry" />
+          <mxGeometry x="433.75" y="805" width="156.25" height="40" as="geometry" />
         </mxCell>
         <mxCell id="YiGi1f87aAJgmJdH8lJt-22" value="Sim" style="text;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="394.38" y="845" width="30" height="30" as="geometry" />
@@ -117,6 +117,52 @@
         </mxCell>
         <mxCell id="YiGi1f87aAJgmJdH8lJt-43" value="Leitura de Dados" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="650" y="620.62" width="61.88" height="61.88" as="geometry" />
+        </mxCell>
+        <mxCell id="YiGi1f87aAJgmJdH8lJt-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YiGi1f87aAJgmJdH8lJt-45" target="YiGi1f87aAJgmJdH8lJt-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YiGi1f87aAJgmJdH8lJt-45" value="Leitura de Dados" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="931.56" y="620.62" width="61.88" height="61.88" as="geometry" />
+        </mxCell>
+        <mxCell id="YiGi1f87aAJgmJdH8lJt-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="YiGi1f87aAJgmJdH8lJt-47">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="962.7826086956522" y="800" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="963" y="940" />
+              <mxPoint x="890" y="940" />
+              <mxPoint x="890" y="800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YiGi1f87aAJgmJdH8lJt-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YiGi1f87aAJgmJdH8lJt-47" target="YiGi1f87aAJgmJdH8lJt-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YiGi1f87aAJgmJdH8lJt-47" value="SCL Borda de Descida?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="910.63" y="820" width="103.75" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="YiGi1f87aAJgmJdH8lJt-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YiGi1f87aAJgmJdH8lJt-49" target="YiGi1f87aAJgmJdH8lJt-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YiGi1f87aAJgmJdH8lJt-49" value="&lt;div&gt;SDA = 0&lt;/div&gt;SCL = Clock 100 KhZ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="897.5" y="720" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YiGi1f87aAJgmJdH8lJt-50" value="Não" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="910.63" y="910" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YiGi1f87aAJgmJdH8lJt-51" value="Start Bit" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="895.63" y="696.25" width="60" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="YiGi1f87aAJgmJdH8lJt-55" value="SDA = 0x76 &amp;amp; 1 &amp;amp; 0xFE" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="845" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YiGi1f87aAJgmJdH8lJt-59" value="Endereço do BME280 &#xa;R/W = 1 (leitura)" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1049.37" y="805" width="156.25" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YiGi1f87aAJgmJdH8lJt-60" value="Sim" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1014.38" y="845" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YiGi1f87aAJgmJdH8lJt-61" value="0xF6 byte de controle" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1049.37" y="895" width="122.5" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
